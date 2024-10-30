@@ -10,8 +10,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "json-server --watch src/jobs.json --port 8000",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "start": "react-scripts start",
+  "build": "react-scripts build"
   },
   "dependencies": {
     "react": "^18.3.1",
