@@ -67,7 +67,9 @@ const App = () => {
     
     );
   return (
+     <BrowserRouter basename="https://chamsbj.github.io/reactjob/">
     <RouterProvider router={router}/>
+        </BrowserRouter>
   )
 }
 
